@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+}
+.h1-tag{
+    color: green;
+}
+.nav-bar{
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+    background-color: burlywood;
+    padding: 15px;
+    text-align: center;
+}
+.nav-bar a{
+    padding: 40px;
+    text-decoration: solid;
+    color: chocolate;
+}
+.nav-bar a:hover{
+    color: brown;
+    text-decoration: underline;
+    font-size: large;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+body{
+    margin: 0px;
+}
